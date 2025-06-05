@@ -7,8 +7,8 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["dist", ".next", "node_modules", "build", "src/generated/**"],
-    "include": ["src/**/*.ts", "src/**/*.tsx"]
+    "ignore": ["dist", ".next", "node_modules", "build", "src/generated/**", "next-env.d.ts"],
+    "include": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.mjs", "components/**/*.ts", "components/**/*.tsx", "components/**/*.js", "components/**/*.jsx", "app/**/*.ts", "app/**/*.tsx", "app/**/*.js", "app/**/*.jsx", "pages/**/*.ts", "pages/**/*.tsx", "pages/**/*.js", "pages/**/*.jsx", "lib/**/*.ts", "lib/**/*.tsx", "lib/**/*.js", "lib/**/*.jsx"]
   },
   "formatter": {
     "enabled": true,
